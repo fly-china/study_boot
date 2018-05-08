@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /boot
+#  springboot2.0后 使用server.servlet.context-path代替server.context-path（过时）
+#  context-path: /demo
+
+
+#自定义属性
+cupSize: F
+age: 28
+content: "cupSize:${cupSize},age:${age}"
+
+#带前缀的配置
+girl:
+  cupSize: F
+  age: 28
+
