@@ -10,3 +10,4 @@ public class StudyBootApplication {
 		SpringApplication.run(StudyBootApplication.class, args);
 	}
 }
+

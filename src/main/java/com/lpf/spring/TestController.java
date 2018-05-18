@@ -57,4 +57,8 @@ public class TestController {
     public String query(@RequestParam(value = "id",required = false,defaultValue = "0") Integer id) {
         return "TestController.login | id=" + id;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
