@@ -1,7 +1,8 @@
 server:
   port: 8080
   servlet:
-    context-path: /boot
+    context-path: /
+#    context-path: /boot
 #  springboot2.0后 使用server.servlet.context-path代替server.context-path（过时）
 #  context-path: /demo
 
