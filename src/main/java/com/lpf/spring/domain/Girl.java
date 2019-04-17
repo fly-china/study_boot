@@ -1,5 +1,8 @@
 package com.lpf.spring.domain;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,16 +16,20 @@ import javax.validation.constraints.Min;
  * @create 2018-05-08 15:53
  **/
 @Entity
+@ApiModel
 public class Girl {
 
     @Id
 //    @GeneratedValue()
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @ApiModelProperty("用户ID")
     private Integer id;
 
     @Min(value = 18, message = "未成年少女不得入内")
+    @ApiModelProperty("年龄")
     private Integer age;
 
+    @ApiModelProperty("大小")
     private String cupSize;
 
     public Girl(){}

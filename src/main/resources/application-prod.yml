@@ -16,3 +16,6 @@ girl:
   cupSize: F
   age: 28
 
+# swagger2的开启状态
+swagger2:
+  enable: false

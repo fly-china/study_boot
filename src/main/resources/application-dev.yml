@@ -16,3 +16,7 @@ girl:
   cupSize: B
   age: 18
 
+# swagger2的开启状态
+swagger2:
+  enable: true
+
