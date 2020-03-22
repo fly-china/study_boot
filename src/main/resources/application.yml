@@ -5,9 +5,10 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
 #    url: jdbc:mysql://10.100.141.121:3306/weixinsp_db?useUnicode=true&amp;autoReconnect=true
-    url: jdbc:mysql://120.79.162.205:3306/spring_boot
-    username: root
-    password: V!3Iitp9p4c2YgAW
+#    url: jdbc:mysql://120.79.162.205:3306/spring_boot
+    url: jdbc:mysql://192.168.99.63:3306/by_crm
+    username: biyaodev
+    password: biyao
   jpa:
     hibernate:
       ddl-auto: update
